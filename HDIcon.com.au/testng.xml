@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  >
+  
+   <test thread-count="5" name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+     <class name="info.tests.PharmacyAdminLogin_Testng"/>     
+    <class name = "info.tests.PAPatientSearch"/>
+    <!-- class name = "info.tests.PatientContactTab"/ -->
+    <!-- class name = "info.tests.PatientBillingDetails"/ -->
+    <!-- class name = "info.tests.TestNGAnotations"/> -->
+    
+
+
+    </classes>
+    </test>
+      
+ 
+</suite> 
